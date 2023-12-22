@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cadetblue;
+            overflow: hidden;
+
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            top: 200px;
+        }
+
+        .cir {
+            width: 220px;
+            height: 220px;
+            border: px solid black;
+            border-radius: 50%;
+            position: relative;
+
+        }
+
+        .cir1 {
+            width: 200px;
+            height: 200px;
+            /* border: 1px solid black; */
+            border-radius: 50%;
+            position: absolute;
+            left: 13px;
+            top: 13px;
+            background-color: #383838;
+        }
+
+        .cir2 {
+            width: 180px;
+            height: 180px;
+            /* border: 1px solid black; */
+            border-radius: 50%;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: #282828;
+        }
+
+        .cir3 {
+            width: 170px;
+            height: 170px;
+            /* border: 1px solid black; */
+            border-radius: 50%;
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            background-color: #f3f2ec;
+        }
+
+        .a {
+            position: absolute;
+            top: 0px;
+            left: 69px;
+            font-size: 30px;
+            color: #3e3e3e;
+        }
+
+        .b {
+            position: absolute;
+            top: 64px;
+            left: 146px;
+            font-size: 30px;
+            color: #3e3e3e;
+        }
+
+        .c {
+            position: absolute;
+            top: 132px;
+            left: 76px;
+            font-size: 30px;
+            color: #3e3e3e;
+        }
+
+        .d {
+            position: absolute;
+            top: 64px;
+            left: 8px;
+            font-size: 30px;
+            color: #3e3e3e;
+        }
+
+        .a1 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(40deg);
+            position: absolute;
+            top: 12px;
+            left: 120px;
+            height: 13px;
+        }
+
+        .a2 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(68deg);
+            position: absolute;
+            top: 38px;
+            left: 144px;
+            height: 13px;
+        }
+
+        .a3 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(114deg);
+            position: absolute;
+            top: 111px;
+            left: 142px;
+            height: 13px;
+        }
+
+        .a4 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(139deg);
+            position: absolute;
+            top: 137px;
+            left: 121px;
+            height: 13px;
+        }
+
+        .a5 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(217deg);
+            position: absolute;
+            top: 137px;
+            left: 46px;
+            height: 13px;
+        }
+
+        .a6 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(230deg);
+            position: absolute;
+            top: 108px;
+            left: 18px;
+            height: 13px;
+        }
+
+        .a7 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(124deg);
+            position: absolute;
+            top: 37px;
+            left: 20px;
+            height: 13px;
+        }
+
+        .a8 {
+            border: 3px solid #3e3e3e;
+            transform: rotate(318deg);
+            position: absolute;
+            top: 12px;
+            left: 45px;
+            height: 13px;
+        }
+
+        .point {
+            position: absolute;
+            height: 7px;
+            width: 7px;
+            top: 75px;
+            left: 79px;
+            border: 2px solid black;
+            border-radius: 50%;
+            background-color: #cc6f4e;
+        }
+
+        .pin {
+            /* border: 1px solid black; */
+            height: 31px;
+            width: 6px;
+            position: absolute;
+            top: 48px;
+            left: 82px;
+            /* transform: rotate(-59deg); */
+            background-color: #3a3a3a;
+            transform-origin: bottom;
+
+        }
+
+        .pin1 {
+            /* border: 1px solid black; */
+            height: 49px;
+            width: 6px;
+            position: absolute;
+            top: 30px;
+            left: 83px;
+            /* transform: rotate(59deg); */
+            background-color: #3a3a3a;
+            transform-origin: bottom;
+
+        }
+
+        .pin2 {
+            /* border: 1px solid black; */
+            transform-origin: bottom;
+            height: 73px;
+            width: 3px;
+            position: absolute;
+            top: 6px;
+            left: 84px;
+            /* transform: rotate(12deg); */
+            background-color: #cc6f4e;
+        }
+
+        /* .small {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 0.5px solid #cc6f4e;
+            position: absolute;
+            top: 46px;
+            left: 84px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- <h1>ANALOG WATCH</h1>  -->
+    <div class="main">
+        <div class="cir">
+            <div class="cir1">
+                <div class="cir2">
+                    <div class="cir3">
+                        <span class="a">12</span>
+                        <span class="a1"></span>
+                        <span class="a2"></span>
+                        <span class="b">3</span>
+                        <span class="a3"></span>
+                        <span class="a4"></span>
+                        <span class="c">6</span>
+                        <span class="a5"></span>
+                        <span class="a6"></span>
+                        <span class="d">9</span>
+                        <span class="a7"></span>
+                        <span class="a8"></span>
+                        <span class="point"></span>
+                        <span class="pin"></span>
+                        <span class="pin1"></span>
+                        <span class="pin2"></span>
+                        <span class="small"></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        setInterval(() => {
+            let hour = document.getElementsByClassName('pin')[0];
+            let min1 = document.getElementsByClassName('pin1')[0];
+            let sec1 = document.getElementsByClassName('pin2')[0];
+            let date = new Date();
+            hr = date.getHours();
+            min = date.getMinutes();
+            sec = date.getSeconds();
+            hr_r = hr * 30 + min / 2;
+            min_r = min * 6;
+            sec_r = sec * 6;
+
+            hour.style.transform = `rotate(${hr_r}deg)`;
+            min1.style.transform = `rotate(${min_r}deg)`;
+            sec1.style.transform = `rotate(${sec_r}deg)`;
+        
+        }, 1000);
+    </script>
+</body>
+
+</html>
